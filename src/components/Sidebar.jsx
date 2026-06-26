@@ -10,12 +10,7 @@ import {
   FiMoon,
 } from "react-icons/fi";
 
-
-import {
-  NavLink,
-  useNavigate,
-} from "react-router-dom";
-
+import { NavLink, useNavigate, } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { ThemeContext } from "../context/ThemeContext";
@@ -37,20 +32,19 @@ export default function Sidebar() {
   return (
     <aside className="sidebar">
       <h2>EMP Dashboard</h2>
-
+      
       <nav>
-
         <NavLink to="/dashboard">
           <FiGrid />
-          Dashboard
-        </NavLink>
+        Dashboard
+      </NavLink>
 
         <NavLink to="/employees">
           <FiUsers />
           Employees
         </NavLink>
-
       </nav>
+      
 <NavLink to="/departments" className="sidebar-link">
   <FiGrid />
   <span>Departments</span>
