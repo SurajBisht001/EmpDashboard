@@ -9,23 +9,23 @@ export default function Departments() {
 
         <div className="department-list">
           <div className="department-card">
-            <h3>Human Resources</h3>
-            <p>Employees: 8</p>
+            <h3>IT</h3>
+            <p>Employees: 2</p>
           </div>
 
           <div className="department-card">
             <h3>Engineering</h3>
-            <p>Employees: 24</p>
+            <p>Employees: 4</p>
           </div>
 
           <div className="department-card">
             <h3>Marketing</h3>
-            <p>Employees: 12</p>
+            <p>Employees: 2</p>
           </div>
 
           <div className="department-card">
             <h3>Finance</h3>
-            <p>Employees: 6</p>
+            <p>Employees: 1</p>
           </div>
         </div>
       </div>
