@@ -22,8 +22,8 @@ export default function AuthProvider({ children }) {
         isLoggedIn,
         login,
         logout,
-      }}
-    >
+      }}>
+      
       {children}
     </AuthContext.Provider>
   );
