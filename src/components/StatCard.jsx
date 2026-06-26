@@ -8,10 +8,8 @@ export default function StatCard({
       <div className="icon">
         {icon}
       </div>
-
-      <h4>{title}</h4>
-
-      <h2>{value}</h2>
+        <h1>{title}</h1>
+        <h2>{value}</h2>
     </div>
   );
 }
