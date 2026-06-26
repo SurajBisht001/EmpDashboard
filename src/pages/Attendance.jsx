@@ -1,12 +1,11 @@
 import Layout from "../components/Layout";
 
-
 export default function Attendance() {
   return (
     <Layout>
       <div className="page">
         <h1>Attendance</h1>
-        <p>Track employee attendance and working hours.</p>
+      <p>Track employee attendance and working hours.</p>
 
         <div className="attendance-table">
           <table>
