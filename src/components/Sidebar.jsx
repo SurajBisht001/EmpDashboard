@@ -18,12 +18,9 @@ import { ThemeContext } from "../context/ThemeContext";
 export default function Sidebar() {
   const { logout } =
     useContext(AuthContext);
-
   const { toggleTheme } =
     useContext(ThemeContext);
-
   const navigate = useNavigate();
-
   const handleLogout = () => {
     logout();
     navigate("/");
