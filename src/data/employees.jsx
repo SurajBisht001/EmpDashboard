@@ -8,6 +8,7 @@ const employees = [
     salary: 50000,
     status: "Active",
   },
+  
   {
     id: 2,
     name: "Rohan",
@@ -17,6 +18,7 @@ const employees = [
     salary: 40000,
     status: "Active",
   },
+  
   {
     id: 3,
     name: "Komal",
@@ -26,6 +28,7 @@ const employees = [
     salary: 45000,
     status: "Inactive",
   },
+  
   {
     id: 4,
     name: "Aman",
