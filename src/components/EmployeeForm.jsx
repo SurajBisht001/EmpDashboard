@@ -33,8 +33,7 @@ export default function EmployeeForm({
             ...formData,
             name: e.target.value,
           })
-        }
-      />
+        }/>
 
       <input
         placeholder="Email"
@@ -93,6 +92,7 @@ export default function EmployeeForm({
           })
         }
       >
+        
         <option>
           Active
         </option>
