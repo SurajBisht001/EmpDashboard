@@ -5,12 +5,10 @@ export default function AuthProvider({ children }) {
   const [isLoggedIn, setIsLoggedIn] = useState(
     JSON.parse(localStorage.getItem("auth")) || false
   );
-
   const login = () => {
     localStorage.setItem("auth", true);
     setIsLoggedIn(true);
   };
-
   const logout = () => {
     localStorage.removeItem("auth");
     setIsLoggedIn(false);
