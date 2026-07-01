@@ -4,7 +4,6 @@ export default function Navbar() {
       <h2>
         Employee Dashboard
       </h2>
-
       <div className="profile">
         Admin
       </div>
